@@ -1,3 +1,4 @@
 {
   "serverPort" : 5000,
+  "dbUrl": ""
 }
