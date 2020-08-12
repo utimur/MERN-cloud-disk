@@ -11,3 +11,40 @@
     margin-left: 10px;
   }
 }
+
+
+.popup {
+  width: 100%;
+  height: 100vh;
+  background: rgba(0,0,0,0.5);
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__content {
+    width: 400px;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__create {
+    align-self: flex-end;
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  input {
+    margin: 20px 0px;
+  }
+}
