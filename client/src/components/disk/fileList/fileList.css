@@ -1,0 +1,19 @@
+.filelist {
+  margin: 20px 0;
+}
+.filelist__header {
+  display: grid;
+  grid-template-columns: 1fr 4fr repeat(4, 1fr);
+}
+.filelist__name {
+  grid-column-start: 2;
+}
+.filelist__date {
+  grid-column-start: 5;
+  justify-self: center;
+}
+.filelist__size {
+  grid-column-start: 6;
+  justify-self: center;
+}
+/*# sourceMappingURL=fileList.css.map */

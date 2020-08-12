@@ -1,0 +1,10 @@
+.disk {
+  margin-top: 20px;
+}
+.disk__btns {
+  display: flex;
+}
+.disk__create {
+  margin-left: 10px;
+}
+/*# sourceMappingURL=disk.css.map */

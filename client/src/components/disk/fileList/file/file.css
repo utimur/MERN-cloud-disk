@@ -1,0 +1,22 @@
+.file {
+  margin: 10px 0;
+  border-bottom: solid 2px #566885;
+  display: grid;
+  grid-template-columns: 1fr 4fr repeat(4, 1fr);
+  align-items: center;
+}
+.file:hover {
+  transform: scale(1.02);
+}
+.file__img {
+  justify-self: center;
+}
+.file__date {
+  grid-column-start: 5;
+  justify-self: center;
+}
+.file__size {
+  grid-column-start: 6;
+  justify-self: center;
+}
+/*# sourceMappingURL=file.css.map */
