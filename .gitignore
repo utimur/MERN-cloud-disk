@@ -6,3 +6,4 @@ server/node_modules
 # dependencies
 client/node_modules
 
+server/files
