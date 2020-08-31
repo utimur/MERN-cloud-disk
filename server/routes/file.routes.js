@@ -7,6 +7,7 @@ router.post('', authMiddleware, fileController.createDir)
 router.post('/upload', authMiddleware, fileController.uploadFile)
 router.get('', authMiddleware, fileController.getFiles)
 router.get('/download', authMiddleware, fileController.downloadFile)
+router.delete('/', authMiddleware, fileController.deleteFile)
 
 
 module.exports = router
