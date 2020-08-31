@@ -1,0 +1,49 @@
+.uploader {
+  height: 300px;
+  width: 300px;
+  position: fixed;
+  background-color: #566885;
+  bottom: 0;
+  right: 0;
+  padding: 20px;
+  border-radius: 12px;
+  overflow-y: auto;
+}
+.uploader__header {
+  display: flex;
+  justify-content: space-between;
+}
+.uploader__title {
+  color: #E9E6E6;
+  font-size: 1.2rem;
+}
+.uploader__close {
+  padding: 3px;
+}
+.upload-file {
+  background-color: #E9E6E6;
+  border-radius: 8px;
+  margin: 5px 0;
+  padding: 5px 10px;
+}
+.upload-file__header {
+  display: flex;
+  justify-content: space-between;
+}
+.upload-file__progress-bar {
+  height: 1rem;
+  border-radius: 8px;
+  background-color: #566885;
+  display: flex;
+  margin: 3px 0;
+}
+.upload-file__upload-bar {
+  background-color: green;
+  border-radius: 8px;
+}
+.upload-file__percent {
+  color: #E9E6E6;
+  left: 50%;
+  position: absolute;
+}
+/*# sourceMappingURL=uploader.css.map */
