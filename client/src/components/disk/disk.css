@@ -19,6 +19,23 @@
 .disk__select {
   margin-left: auto;
 }
+.disk__list,
+.disk__plate {
+  height: 20px;
+  width: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: no-repeat center center;
+  background-size: contain;
+  margin: 0 10px;
+}
+.disk__list {
+  background-image: url("../../assets/img/list.svg");
+}
+.disk__plate {
+  background-image: url("../../assets/img/plate.svg");
+}
 .drop-area {
   width: 100%;
   height: calc(100vh - 50px - 40px);
