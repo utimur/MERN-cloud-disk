@@ -19,6 +19,11 @@
   width: 200px;
   margin-left: 30px;
 }
+.navbar__avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
 .container {
   width: 1140px;
   display: flex;
